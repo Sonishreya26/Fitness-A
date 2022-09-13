@@ -1,0 +1,31 @@
+body,
+#root,
+.App {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.standard {
+  border-left: 5px solid rgba(30, 64, 175, 0.5);
+  border-bottom: 5px solid rgba(30, 64, 175, 0.5);
+}
+
+.metric {
+  border-top: 5px solid rgba(153, 27, 27, 0.5);
+  border-right: 5px solid rgba(153, 27, 27, 0.5);
+}
+
+.focused {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.standard-font {
+  color: rgba(30, 64, 175, 0.5);
+}
+.metric-font {
+  color: rgba(153, 27, 27, 0.5);
+}
